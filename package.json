@@ -1,6 +1,6 @@
 {
   "name": "padmajs",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A lightweight TypeScript backend framework for building modern server-side applications.",
   "type": "module",
   "main": "./dist/index.js",
