@@ -1,7 +1,7 @@
 // PadmaJS (C) 2026
-import { Router } from "./router";
-import { Server } from "./server";
-import type { Handler } from "./types";
+import { Router } from "./router.js";
+import { Server } from "./server.js";
+import type { Handler } from "./types.js";
 
 /**
  * PadmaJS application.

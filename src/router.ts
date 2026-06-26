@@ -1,5 +1,5 @@
 // PadmaJS (C) 2026
-import type { Handler, HttpMethod, Route } from "./types";
+import type { Handler, HttpMethod, Route } from "./types.js";
 
 /**
  * Route manager.

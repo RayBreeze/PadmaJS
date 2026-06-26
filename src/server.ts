@@ -4,11 +4,11 @@ import http, {
   type ServerResponse,
 } from "node:http";
 
-import { Context } from "./context";
-import { Request } from "./request";
-import { Response } from "./response";
-import { Router } from "./router";
-import type { HttpMethod } from "./types";
+import { Context } from "./context.js";
+import { Request } from "./request.js";
+import { Response } from "./response.js";
+import { Router } from "./router.js";
+import type { HttpMethod } from "./types.js";
 
 /**
  * HTTP server.

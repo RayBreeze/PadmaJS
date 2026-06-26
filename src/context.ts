@@ -1,6 +1,6 @@
 // PadmaJS (C) 2026
-import { Request } from "./request";
-import { Response } from "./response";
+import { Request } from "./request.js";
+import { Response } from "./response.js";
 
 /**
  * Request context.

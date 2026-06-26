@@ -1,5 +1,5 @@
 // PadmaJS (C) 2026
-import type { Context } from "./context";
+import type { Context } from "./context.js";
 
 /** Route handler. */
 export type Handler = (
