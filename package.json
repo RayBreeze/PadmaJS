@@ -1,0 +1,66 @@
+{
+  "name": "padmajs",
+  "version": "0.0.1",
+  "description": "A lightweight TypeScript backend framework for building modern server-side applications.",
+  "type": "module",
+
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx playground/index.ts"
+  },
+
+  "keywords": [
+    "padmajs",
+    "framework",
+    "backend",
+    "typescript",
+    "nodejs",
+    "http",
+    "server",
+    "routing"
+  ],
+
+  "author": "Samman Das",
+  "license": "MIT",
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/<YOUR_USERNAME>/padmajs.git"
+  },
+
+  "bugs": {
+    "url": "https://github.com/<YOUR_USERNAME>/padmajs/issues"
+  },
+
+  "homepage": "https://github.com/<YOUR_USERNAME>/padmajs#readme",
+
+  "engines": {
+    "node": ">=20"
+  },
+
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/node": "^26.0.1",
+    "eslint": "^10.5.0",
+    "prettier": "^3.8.4",
+    "tsx": "^4.22.4",
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.62.0"
+  }
+}
