@@ -38,7 +38,7 @@ npm install padmajs
 
 ## Quick Start
 
-```typescript
+```javascript
 import { createApp } from "padmajs";
 
 const app = createApp();
@@ -50,17 +50,17 @@ app.get("/", (ctx) => {
 app.get("/json", (ctx) => {
     ctx.json({
         framework: "PadmaJS",
-        version: "0.0.1"
+        version: "0.0.2"
     });
 });
 
 app.listen(3000);
 ```
 
-Start the development server:
+Save the example as `app.mjs` and start it with Node.js:
 
 ```bash
-npm run dev
+node app.mjs
 ```
 
 Then visit:
